@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-image: url("images/4168419.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+html {
+  height: 100%;
+}
+.App{
+  padding-top: 15px;
+  
+}
+.buttonForRegions{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .App {
+    padding-top: 10px;
+  }
+
+  .buttonForRegions {
+    padding-top: 5px;
+  }
+  
+}

@@ -1,0 +1,23 @@
+.hourly{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+ 
+}
+.Button-cont{
+    display: flex;
+    justify-content: center;
+   
+}
+.button-container .RegionsButton {
+    margin: 10px; 
+    
+  }
+ 
+
+  @media (max-width: 768px) {
+    .Button-cont{
+        display:contents;
+       padding: 20px;
+    }
+  }

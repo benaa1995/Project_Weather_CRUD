@@ -1,0 +1,13 @@
+.dialy{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 10px;
+}
+@media (max-width: 768px) {
+    .dialy{
+        display: flex;
+        align-items: center;
+        padding-top: 1px;
+    }
+  }

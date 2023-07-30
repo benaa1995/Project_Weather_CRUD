@@ -1,0 +1,40 @@
+
+.temp {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #61abf4;
+  }
+  
+  .temp h2 {
+    margin-bottom: 20px;
+  }
+  
+  .temp p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .temp p:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+  
+  .temp p:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .temp p:last-child {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .temp p:last-child:before {
+    content: " Now , ";
+  }
+  
+ 
+  
+  
